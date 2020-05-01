@@ -1,0 +1,10 @@
+i =  0 a =  1 b =  2 c =  3 d =  2 sum =    1 mean =  inf
+i =  1 a =  2 b =  3 c =  5 d =  4 sum =    3 mean = 3.00
+i =  2 a =  3 b =  4 c =  7 d =  6 sum =    6 mean = 3.00
+i =  3 a =  4 b =  5 c =  9 d =  8 sum =   10 mean = 3.33
+i =  4 a =  5 b =  6 c = 11 d = 10 sum =   15 mean = 3.75
+i =  5 a =  6 b =  7 c = 13 d = 12 sum =   21 mean = 4.20
+i =  6 a =  7 b =  8 c = 15 d = 14 sum =   28 mean = 4.67
+i =  7 a =  8 b =  9 c = 17 d = 16 sum =   36 mean = 5.14
+i =  8 a =  9 b = 10 c = 19 d = 18 sum =   45 mean = 5.62
+i =  9 a = 10 b = 11 c = 21 d = 20 sum =   55 mean = 6.11

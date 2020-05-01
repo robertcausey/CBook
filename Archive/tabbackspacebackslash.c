@@ -14,13 +14,10 @@ int main()
 			printf("\\b");
 		if(c == '\\')
 			printf("\\\\");
-		if(c == '\n')
-			printf("\\n");
 		if(c != '\t')
 			if(c != '\b')
 				if(c != '\\')
-					if(c != '\n')
-						putchar(c);
+					putchar(c);
 	}
 	putchar('\n');
 }

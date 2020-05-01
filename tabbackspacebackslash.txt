@@ -1,1 +1,3 @@
-Thequick fox		jumped\ over the 	lazy cat.
+	The quick fox 
+Jumped over 
+	The lazy cat.

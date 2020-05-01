@@ -1,0 +1,20 @@
+type git init in the directory you wish to make a repository in github
+
+do git add.
+
+git commit -m "some message"
+
+git push
+ ...you will be prompted
+*****************
+fatal: No configured push destination.                                   Either specify the URL from the command-line or configure a remote repository using                                                                                                                                            git remote add <name> <url>                                                                                                                   and then push using the remote name                                                                                                                   git push <name> 
+
+******************************
+
+Go on to github and creat a new repository with the name of the directory you are in locally. Copy and paste the URL then enter both by using the command
+
+git remote add <name> <url>
+
+when you do your first git push you will need to establish it as the master (I think), and will need to use the following command
+
+git push --set-upstream <name> master  

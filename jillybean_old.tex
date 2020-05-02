@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{letter}
+\usepackage{geometry}
+\usepackage{pslatex}             % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper,margin=1.0 in}
+\usepackage{wallpaper}
+
+\usepackage{pbsi}
+\usepackage[T1]{fontenc}
+% Some of the article customisations are relevant for this class
+
+\name{} % To be used for the return address on the envelope
+\signature{\vspace{-3em}\bsifamily \Large{~\includegraphics[scale=0.4]{signature.jpg}~}\\~\\ \normalsize \textrm {Robert C. Causey DVM, PhD, MRCVS\\ Diplomate of the American College of Theriogenologists\\~\\rcausey@maine.edu\\(ph) 207-922-7475\\ (fax) 207-581-2729}} % Goes after the closing (ie at the end of the letter, with space for a signature)
+\address{~\\~\\School of Food and Agriculture\\Animal and Veterinary Sciences\\5735 Hitchner Hall\\University of Maine\\Orono, ME 04469-5735}
+% Alternatively, these may be set on an individual basis within each letter environment.
+
+%\makelabels % this command prints envelope labels on the final page of the document
+
+\begin{document}
+\begin{letter}{Naomi St Peter\\194 Madawaska Rd\\Caribou, ME 04736}
+\ThisULCornerWallPaper{1}{SFA_Letterhead.pdf}
+\opening{Dear Naomi:} % eg Hello.
+Many thanks for taking ownership of Jill Quirk ``Jill" or ``Jillybean". She has been a great mare for us over the years, and I am glad to see her going to a devoted owner like yourself. \\~\\
+Today she is sold as is, and we can make no guarantee regarding her future performance. Other than old racing injuries which limit her athletic performance there do not appear to be any other significant issues regarding her health. However, we do not recommend that she be ridden.\\~\\
+I hope  you will have many happy years together, and I know that the bond you share will become stronger as those years go by.
+\closing{Sincerely} % eg Regards,
+%\cc{cc} % people this letter is cc-ed to
+%\encl{encl} % list of anything enclosed
+%\ps{ps} % any post scriptums. ``PS'' labels must be put in manually
+\end{letter}
+\end{document}
+

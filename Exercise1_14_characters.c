@@ -10,14 +10,23 @@ int main()
 	 /*le for array of 4 letters (atgc)*/
 
 	i = j = 0;
-	char le[] = "atgc";
-	putchar(le[3]);
+	char le[] = "abcdefghijklmnopqrstuvwxyz";/*a string*/
+	putchar(le[3]);/*print "i'th" letter of string*/
+	putchar('\n');/*line break*/
+	i = 0;
+	while (i < 26 )
+		{
+		putchar(le[i]);/*print string up to 26 letters*/
+		putchar(' ');/*prints space between each letter*/
+		++i;
+		}
 	putchar('\n');
 	i = 0;
-	while (i < 5)
+	while  (i < 26)
 		{
-		putchar(le[i]);
+		printf("%d", i);/*print value of i*/
 		++i;
+		putchar(' ');/* print space between*/
 		}
 	putchar('\n');
 /*	while ((c=getchar()) != EOF)

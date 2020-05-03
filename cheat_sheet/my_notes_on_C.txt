@@ -1,0 +1,11 @@
+END OF FILE
+to creat an EOF signal, sometimes it is necessary to hit CTRL-Z in windows, or CNTRL-D on Mac or Unix.
+getchar() !=EOF then will be false and loop will terminate.
+I found this necessary since C book was written before very early, before, I think, laptops were using UNIX-based platforms and folks were working on Main frames.
+
+COPY AND PASTE
+In most setting this is CNTRL-C, CNTRL-V. On the Ubuntu for MS terminal it appears to be SHIFT-CNTRL-C, and SHIFT-CNTRL-V etc. All keys SHIFT & CNTRL are held simultaneously while V is hit.
+
+`
+
+

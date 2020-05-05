@@ -14,20 +14,28 @@ int main()
 	putchar(le[3]);/*print "i'th" letter of string*/
 	putchar('\n');/*line break*/
 	i = 0;
-	while (i < 26 )
+	while (i < 10 )
 		{
 		putchar(le[i]);/*print string up to 26 letters*/
 		putchar(' ');/*prints space between each letter*/
+                putchar(' ');
 		++i;
 		}
+	for (i=10; i<26;++i)
+		{
+		 putchar(le[i]);
+		 printf("   ");
+	 	}
 	putchar('\n');
 	i = 0;
-	while  (i < 26)
+	while  (i < 10)
 		{
-		printf("%d", i);/*print value of i*/
+		printf("%-3d", i);/*print value of i*/
 		++i;
-		putchar(' ');/* print space between*/
 		}
+		 
+	for (i=10; i<26;++i)
+		printf("%-3d ",i);
 	putchar('\n');
 /*	while ((c=getchar()) != EOF)
 

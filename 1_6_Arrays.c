@@ -20,9 +20,13 @@ int main()
 		else 
 			++nother;
 
-	printf("digits");
+	printf("digits\n");
 	for (i = 0; i < 10; ++i)
-		printf(" %d", ndigit[i]);
+		{
+		printf(" %d", i);
+		printf(" %d\n", ndigit[i]);	
+		}
 	printf(", white space = %d, other = %d\n", nwhite, nother);
+
 
 }
